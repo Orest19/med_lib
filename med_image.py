@@ -49,8 +49,8 @@ def dload_book (log_name, passw_name, url_book,folder):
     # Exit
             browser.quit()
 
-log = "X093_"
-passw = "KYHCEYQT"
+log = ""
+passw = ""
 link =  "http://www.medcollegelib.ru/book/ISBN9785970419458.html"
 fol_name = "Pharm"
 dload_book (log,passw,link,fol_name)
