@@ -78,8 +78,8 @@ def dload_book (log_name, passw_name, url_book,file):
             browser.quit()
             break
 
-log = "X093_"
-passw = "KYHCEYQT"
+log = ""
+passw = ""
 link =  'http://www.medcollegelib.ru/book/ISBN9785970435854.html'
 file_name = "ISBN9785970435854.docx - LibreOffice Writer"
 dload_book (log,passw,link,file_name)
